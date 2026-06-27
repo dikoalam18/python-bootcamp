@@ -7,3 +7,8 @@
 """
 
 # TODO: Use the function once
+def line_generator(linenumbers):
+    for item in range(linenumbers):
+        print(f"Line {item + 1}")
+
+line_generator(4)

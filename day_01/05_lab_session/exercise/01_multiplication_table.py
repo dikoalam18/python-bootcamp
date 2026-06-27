@@ -1,6 +1,8 @@
 # TODO: Ask the user for an integer input
-number = int(input("Pick a number: "))
+from time import process_time_ns
 
+number = int(input("Pick a number: "))
+counts = 10
 # TODO: Print the multiplication table for that number
 """
 Example:
@@ -17,3 +19,6 @@ number = 3
 3 x 9 = 27
 3 x 10 = 30
 """
+for count in range(counts + 1):
+    print(f"{number} * {count} = {number * count}" )
+

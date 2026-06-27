@@ -4,3 +4,9 @@ def product():
 # TODO: product(1, 1, 1)	# 1
 # TODO: product(1, 2, 3)	# 6
 # TODO: product(2, 5, 10)	# 100
+
+def product(a, b, c):
+    print()
+    print(f"{a * b * c}")
+
+product(2, 5, 10)

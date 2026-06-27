@@ -1,15 +1,18 @@
 # TODO: Ask the user for three values
-expense_1 = 0  # Let the user enter a number
-expense_2 = 0  # Let the user enter a number
-expense_3 = 0  # Let the user enter a number
+expense_1 = float(input("Enter expeses_1: "))  # Let the user enter a number
+expense_2 = float(input("Enter expeses_2: "))  # Let the user enter a number
+expense_3 = float(input("Enter expeses_3: "))  # Let the user enter a number
 
 # TODO: Then, print each information one line at a time
-print(expense_1)
-print(expense_2)
-print(expense_3)
+print()
+print("expense_1:", expense_1)
+print("expense_2:", expense_2)
+print("expense_3:", expense_3)
 
 total = expense_1 + expense_2 + expense_3
-print(total)
+print()
+print("total_expense:", total)
 
 # TODO: Format this part using f-strings
-print(expense_1, "+", expense_2, "+", expense_3, "=", total)
+print()
+print(f"{expense_1} + {expense_2} + {expense_3} = {total}")
