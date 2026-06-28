@@ -17,7 +17,7 @@ def show(deck):
 	"""TODO: Print all cards in deck"""
 
 
-def add_top(deck):
+def add_top(deck, other):
 	"""TODO: Add cards in other to the first parts of deck"""
 
 
