@@ -40,5 +40,6 @@ def get_safe_number_input():
 
     return number
 
+
 var = get_safe_number_input()
 
