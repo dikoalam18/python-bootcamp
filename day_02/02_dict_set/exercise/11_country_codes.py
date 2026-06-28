@@ -2,6 +2,8 @@
 country_codes = {
     "PH": "Philippines",
     "US": "United States",
+    "UK": "United Kingdom",
+    "JP": "Japan",
 }
 
-print(country_codes)
+
